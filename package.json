@@ -2,6 +2,7 @@
   "repository": "#",
   "license": "MIT",
   "scripts": {
+    "test": "jest --watch",
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack serve --no-hot  --watch-files /src --config ./bundler/webpack.dev.js"
   },
@@ -33,6 +34,7 @@
     "dotenv-webpack": "^7.0.3",
     "file-loader": "^6.2.0",
     "svg-inline-loader": "^0.8.2",
-    "url-loader": "^4.1.1"
+    "url-loader": "^4.1.1",
+    "jest": "^27.4.7"
   }
 }
